@@ -1,7 +1,7 @@
 # CoreOS VirtualBox Guest Additions
 
 [![Build Status](https://travis-ci.org/troywilson/coreos-vboxguest.svg?branch=master)](https://travis-ci.org/troywilson/coreos-vboxguest)
-
+[![Docker Pulls](https://img.shields.io/docker/pulls/troywilson/coreos-vboxguest.svg)](https://hub.docker.com/r/troywilson/coreos-vboxguest/)
 
 This image installs the VirtualBox Guest Additions on CoreOS Container Linux.
 
