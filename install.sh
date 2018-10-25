@@ -36,8 +36,4 @@ if ! lsmod | grep -qw 'vboxsf'; then
   insmod "${INSTALL_DIR}/vboxsf.ko" 2> /dev/null
 fi
 
-if ! lsmod | grep -qw 'vboxvideo'; then
-  insmod "${INSTALL_DIR}/vboxvideo.ko" 2> /dev/null
-fi
-
 eval "${INSTALL_DIR}/VBoxService -f"
