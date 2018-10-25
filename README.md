@@ -11,7 +11,7 @@ On startup the container interrogates the host kernel and then installs the requ
 Find the docker image at: [troywilson/coreos-vboxguest](https://hub.docker.com/r/troywilson/coreos-vboxguest)
 
 ```
-docker run -v /:/root --name vboxguest --network=host --privileged \
+docker run --volume /:/root --name vboxguest --network=host --privileged \
            --restart=always --detach troywilson/coreos-vboxguest:latest
 ```
 
