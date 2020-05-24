@@ -1,13 +1,11 @@
+os: linux
 dist: xenial
-sudo: required
+language: ruby
+
+if: tag IS present
 
 env:
   - IMAGE=coreos-vboxguest
-
-before_script:
-  - if [ -z "$TRAVIS_TAG" ]; then
-      travis_terminate 0;
-    fi
 
 script:
   - docker build
