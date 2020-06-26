@@ -1,6 +1,6 @@
 # CoreOS VirtualBox Guest Additions
 
-[![Build Status](https://travis-ci.org/troywilson/coreos-vboxguest.svg?branch=master)](https://travis-ci.org/troywilson/coreos-vboxguest) [![Docker Pulls](https://img.shields.io/docker/pulls/troywilson/coreos-vboxguest.svg)](https://hub.docker.com/r/troywilson/coreos-vboxguest/) [![Apache V2 License](https://img.shields.io/badge/license-Apache%20V2-blue.svg)](https://github.com/troywilson/coreos-vboxguest/blob/master/LICENSE)
+[![Build Status](https://travis-ci.org/troywilson/coreos-vboxguest.svg?branch=master)](https://travis-ci.org/troywilson/coreos-vboxguest) ![Docker Image Version (latest semver)](https://img.shields.io/docker/v/troywilson/coreos-vboxguest) [![Docker Pulls](https://img.shields.io/docker/pulls/troywilson/coreos-vboxguest.svg)](https://hub.docker.com/r/troywilson/coreos-vboxguest/) ![Docker Image Size (latest by date)](https://img.shields.io/docker/image-size/troywilson/coreos-vboxguest?sort=date) [![Apache V2 License](https://img.shields.io/badge/license-Apache%20V2-blue.svg)](https://github.com/troywilson/coreos-vboxguest/blob/master/LICENSE)
 
 This image installs the VirtualBox Guest Additions on CoreOS Container Linux.
 

@@ -1,4 +1,8 @@
 
+## 0.4 (May 25, 2020)
+
+* Updated travis build updates
+
 ## 0.3 (May 24, 2020)
 
 * Updated travis build environment to xenial
