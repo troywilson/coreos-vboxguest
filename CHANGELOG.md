@@ -1,7 +1,7 @@
 
 ## 0.4 (May 25, 2020)
 
-* Updated travis build updates
+* Updated travis build
 
 ## 0.3 (May 24, 2020)
 
